@@ -1,0 +1,124 @@
+/*styling the body*/
+
+/* universal selector to set all texts to this font family, font-size and weight*/
+
+*{
+    font-family: Arial, sans-serif;
+    font-size: small;
+    font-weight: bolder;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(#000000, #0364ad);
+    padding: 0px;
+}
+
+/* styling for the header*/
+header{
+    min-width: 100%;
+    position:fixed; /* fixing the header containing our links*/
+    top:0; /* to the top whenever the page is scrolled */
+}
+
+/* styling for the links list*/
+header ul{
+    list-style-type: none;
+    float: right;
+    padding-right: 100px;
+}
+
+header ul li{
+    display: inline;
+    padding: 25px;
+}
+
+/* styling for the anchor elements*/
+header ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+#footer-spacing{
+    height: 60vh;
+    width: 100vw;
+}
+
+/* styling the footer */
+footer{
+    margin-top: 2vh;
+    padding: 10px;
+    background-color: #000000;
+    min-width: 100vw;
+    margin-left: -20px;
+    padding-left: 50px;
+}
+
+#footer-text{
+    color: #ffffff;
+}
+
+#footer-icons {
+    list-style-type: none;
+}
+
+#footer-icons li{
+    display: inline;
+    padding: 10px;
+}
+
+#footer-icons li a{
+    text-decoration: none;
+}
+
+#footer-icons li a img{
+    width: 20px;
+    height: 20px;
+}
+
+
+/***********************
+***********************
+*******************
+
+ ******************
+ ***********************
+ ************************/
+
+ .boxes-area{
+    width: 100%;
+    background-color: #dfe5ec;
+    margin-top: 60px;
+ }
+
+ .boxes{
+    list-style-type: none;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+ }
+
+ .boxes li{
+    display: block;
+ }
+
+ .boxes li div{
+    width: 100%;
+    height: 25vh;
+    border-radius: 5px;
+    background-color: aqua;
+    margin-top: 20px;
+    
+ }
+
+ /* centering the texts in the boxes */
+ .boxes li div p{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    color: brown;
+ }
